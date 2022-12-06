@@ -9,7 +9,7 @@ pub struct Post {
     pub title: String,
     pub body: String,
     pub published: bool,
-    // pub created_at: NaiveDateTime,
+    pub created_at: NaiveDateTime,
 }
 
 #[derive(Insertable)]
